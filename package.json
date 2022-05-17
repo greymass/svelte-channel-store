@@ -1,12 +1,12 @@
 {
-    "name": "PACKAGE",
-    "description": "DESCRIPTION",
-    "version": "0.0.0",
-    "homepage": "https://github.com/greymass/PACKAGE",
+    "name": "svelte-channel-store",
+    "description": "Svelte store that synchronizes over a MessageChannel",
+    "version": "1.0.0",
+    "homepage": "https://github.com/greymass/svelte-channel-store",
     "license": "BSD-3-Clause",
-    "main": "lib/PACKAGE.js",
-    "module": "lib/PACKAGE.m.js",
-    "types": "lib/PACKAGE.d.ts",
+    "main": "lib/svelte-channel-store.js",
+    "module": "lib/svelte-channel-store.m.js",
+    "types": "lib/svelte-channel-store.d.ts",
     "sideEffects": false,
     "files": [
         "lib/*",
@@ -16,6 +16,7 @@
         "prepare": "make"
     },
     "dependencies": {
+        "svelte": "3.x",
         "tslib": "^2.1.0"
     },
     "devDependencies": {

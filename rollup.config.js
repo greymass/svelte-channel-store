@@ -17,6 +17,7 @@ const banner = `
 `.trim()
 
 const external = Object.keys(pkg.dependencies)
+external.push('svelte/store')
 
 /** @type {import('rollup').RollupOptions} */
 export default [
